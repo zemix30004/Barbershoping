@@ -46,6 +46,6 @@
     @endforeach
 </table>
 
-{!! $roles->render() !!}
+{! $roles->render() !}
 
 @endsection

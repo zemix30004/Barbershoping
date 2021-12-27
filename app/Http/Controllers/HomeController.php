@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        auth()->user()->assignRole('admin');
         return view('home');
     }
 }
